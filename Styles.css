@@ -1,6 +1,13 @@
 div.mainContainer{
-    margin: 50px auto;
+    margin: 50px 25% auto;
     display: block;
+    border: 1px solid #1e1e1e;
+    border-radius: 12px;
+}
+
+div.ad{
+    border: 1px solid #1e1e1e;
+    border-radius: 12px;
 }
 
 h1{
@@ -9,9 +16,6 @@ h1{
     font-size: 48pt;
     font-weight: bolder;
     color: #000000;
-
-    /*margin: 50px auto;*/
-    /*display: block;*/
 }
 
 p{
@@ -20,7 +24,6 @@ p{
     font-size: 24pt;
     font-weight: bolder;
     color: #000000;
-
 }
 
 button {
@@ -32,16 +35,13 @@ button {
     text-align: center;
     text-decoration: none;
 
-    /*margin: auto;*/
-    /*display: block;*/
-
     font-size: 16px;
     font-family: sans-serif;
 
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-
 }
+
 button:hover{
     background-color: #1e1e1e;
     border-radius: 12px;
@@ -51,9 +51,6 @@ button:hover{
     text-align: center;
     text-decoration: none;
     color: white;
-
-    /*margin: auto;*/
-    /*display: block;*/
 }
 
 body {
