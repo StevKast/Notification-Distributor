@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Notification Handler</title>
-    <script> src="AWSScripts.js" </script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-8261478353612276",
-            enable_page_level_ads: true
-        });
-    </script>
+
+    <script type="text/javascript" src="https://sdk.amazonaws.com/js/aws-sdk-2.97.0.min.js"></script>
+
+    <script type="text/javascript" src="AWSScripts.js"></script>
     <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
@@ -20,27 +16,19 @@
     </h1>
     <p>
         Hello world
-
     </p>
+
     <p>
-    <textarea cols="80" rows="10">
+    <textarea id="area" cols="80" rows="10">
 
     </textarea>
-        <button type="button" onclick="alert('Shits broke yo!')";> Submit </button>
+        <button type="button" value="Submit" onclick="alert(generateTopic())"> Submit </button>
+        <button type="button" value="Add Person" onclick=""> Add Person </button>
     </p>
+
 </div>
 
 <div class="ad" align="lower">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- Notification Handler -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8261478353612276"
-         data-ad-slot="9558012556"
-         data-ad-format="auto"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 </div>
 </body>
 </html>
